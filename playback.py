@@ -1,0 +1,5 @@
+your_word = input("what's your word: ")
+words = your_word.split()
+#print(*words)
+print(words[0].strip(),"...",words[1],"...",words[2],"...", sep="")
+print(f"{words[0]}...{words[1]}...{words[2]}...")

@@ -15,7 +15,7 @@ def test_zero():
 
 def test_str():
     with pytest.raises(TypeError):
-        squae("cat")
+        square("cat")
 
 """
 def main():
